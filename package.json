@@ -1,0 +1,22 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": [
+    "support-ticket-api",
+    "support-ticket-web"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "npm run start:dev --workspace=support-ticket-api",
+    "dev:frontend": "npm run dev --workspace=support-ticket-web",
+    "start": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
