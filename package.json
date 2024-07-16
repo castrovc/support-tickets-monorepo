@@ -1,6 +1,5 @@
 {
   "name": "monorepo",
-  "private": true,
   "workspaces": [
     "support-ticket-api",
     "support-ticket-web"
