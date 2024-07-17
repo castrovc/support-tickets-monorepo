@@ -31,3 +31,9 @@ coverage
 *.ntvs*
 *.njsproj
 *.sln
+
+#api
+support-ticket-api/*.dist
+support-ticket-api/*.node_modules
+support-ticket-api/*.build
+support-ticket-api/*.env
